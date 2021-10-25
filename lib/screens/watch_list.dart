@@ -25,7 +25,7 @@ class WatchListView extends StatelessWidget {
                 brands: Brand.values.toList(),
               ),
               const SizedBox(height: 24.0),
-              Container(
+              SizedBox(
                 height: 320.0,
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
